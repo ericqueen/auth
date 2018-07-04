@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { View, Text } from 'react-native';
-import firebase from 'firebase';
 import { Header, CardSection, Button, Spinner } from './components/common';
 import LoginForm from './components/LoginForm';
+import firebase from 'firebase';
 
 class App extends Component {
     state = { loggedIn: null };
